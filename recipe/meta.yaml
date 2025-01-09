@@ -1,13 +1,13 @@
 {% set name = "ripgrepy" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ripgrepy-{{ version }}.tar.gz
-  sha256: 6dd871bafe859301097354d1f171540fbc9bd38d3f8f52f8a196dc28522085da
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ripgrepy-{{ version }}.tar.gz
+  sha256: 86b8ed6cf99da0bddab3281290078a3c3704c670c109afb37fd884485cf4a720
 
 build:
   noarch: python
